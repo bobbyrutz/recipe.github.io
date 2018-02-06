@@ -1,0 +1,202 @@
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: rgba(220,130,210,1);
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+
+}
+
+.navbar {
+  height: 40px;
+  width: 100%;
+  /* border: 3px solid blue; */
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+
+.navlogo {
+  /* height: 38px;
+  width: 100px; */
+  /* margin-left: 20px;
+  margin-right: 30px; */
+  /* padding-top: 10px; */
+  text-align: center;
+  font-weight: bold;
+  /* border: 1px solid #000000; */
+  display: flex;
+  align-items: center;
+}
+
+.navlogo a {
+  width: 130px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  line-height: 40px;
+  vertical-align: middle;
+  padding: 0px 20px;
+  transition: all .7s ease;
+
+}
+
+.navlogo a:hover {
+  background-color: rgba(255,255,255,0.7);
+  color: rgba(0, 0, 0, 1);
+  transition: all .7s ease;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  width: 130px;
+  display: block;
+  text-decoration: none;
+  padding: 0px 10px;
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  font-weight: bold;
+  line-height: 40px;
+  transition: all 1s ease;
+
+  /* border: 1px solid #000000; */
+  /* margin-top: 5px; */
+}
+
+.navbar li a:hover {
+  background-color: rgba(255,255,255,0.7);
+  color: rgba(0, 0, 0, 1);
+  transition: all .5s ease;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 400px;
+  border: 1px solid #000000;
+  background-color: rgba(0,0,0,1);
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  /* margin: 0 auto; */
+  position: relative;
+  top: -720px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+#header {
+  background-image: url("img/burgundyburger.jpg");
+  background-size: 100%;
+  background-position: 0% 85%;
+  display: block;
+  height: 900px;
+  width: 100%;
+  background-color: #000000;
+  /* border: 3px solid white; */
+  /* margin-top: 50px; */
+  margin: 0 auto;
+}
+
+#dinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  padding: 0;
+  height: 700px;
+  width: 100%;
+  background-image: url("img/paperbackground.jpg");
+  background-size: 75%;
+  /* background-repeat: no-repeat; */
+  margin: auto;
+
+}
+
+#lunch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0;
+  height: 500px;
+  width: 100%;
+  background-color: #F8F8F8;
+  /* border: 3px solid white; */
+  /* margin-top: 50px; */
+  margin: 0 auto;
+
+}
+
+#breakfast {
+  display: block;
+  height: 500px;
+  width: 100%;
+  background-color: #FF9E62;
+  /* border: 3px solid white; */
+  /* margin-top: 50px; */
+  margin: 0 auto;
+}
+
+#sweets {
+  display: block;
+  height: 600px;
+  width: 100%;
+  background-color: blue;
+  /* border: 3px solid white; */
+  /* margin-top: 50px; */
+  margin: 0 auto;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    margin: 45px 30px 30px 30px;
+    border-radius: 10px;
+    width: 20%;
+    height: 600px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    /* display: inline-block; */
+    background-color: #fff;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 16px 30px 0 rgba(0,0,0,0.3);
+}
+
+/* Add some padding inside the card container */
+.cardContainer {
+    padding: 2px 16px;
+    text-align: center;
+}
